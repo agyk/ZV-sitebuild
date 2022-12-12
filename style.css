@@ -9,12 +9,19 @@
 
 body{
     background-color: #ffeedf;
-    font-family: 'Space Grotesk', sans-serif;;
+    font-family: 'Space Grotesk', sans-serif;
+   
 }
+.container{
+    max-width: 1200px;
+    margin: 50px 70px;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: 60px;
     padding: 15px;
     color: #145434;
     border-bottom: 1px solid #145434;
@@ -25,7 +32,7 @@ nav{
 }
 
 h1{
-    font-size: 2rem;
+    font-size:36px;
 }
 .beer-cards{
     display: flex;
@@ -33,7 +40,8 @@ h1{
     justify-content: center;
     height: 100%;
     width: auto;
-   
+    max-width: 1200px;
+    gap:60px;
     
 }
 .box{
@@ -41,13 +49,13 @@ h1{
     width: 30%;
     background-color: #145434;
     color: #ffeedf;
-    margin: 50px;
     padding: 10px 25px;
+    margin: 50px;
 }
 .box h2{
     font-weight: 400;
     padding-bottom: 40px;
-    font-size: 2rem;
+    font-size: 36px;
 
 }
 .bold{
@@ -58,34 +66,41 @@ h1{
     position: relative;
     background-color: #ffeedf;
     color: #145434;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     padding: 5px;
     top:-25px;
     left:-40px;
     border: 1px solid #145434;
 }
-
+p.number{
+    font-size: 24px;
+}
 .details{
     background-color: #ffeedf;
     color: #145434;
     display: flex;
     padding: 10px;
-    width: 50%;
+    width: 200px;
+    height: 50px;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    top: 25px;
-    left:210px ;
+    top: 10%;
+    left:50%;
     border:2px solid #145434;
     
 }
+.details:hover{
+    background-color: #145434;
+    color:#ffeedf;
+}
 .fa-solid.fa-arrow-right{
-    font-size: 1.5rem;
+    font-size: 36px;
 }
 .details p{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     padding-left: 40%;
 }
@@ -93,4 +108,10 @@ h1{
 .smalltitle{
     border-top: 1px solid #ffeedf;
     padding-top: 8px;
+}
+.smalltitle p{
+    font-size: 18px;
+}
+#num4{
+    top:25%
 }
